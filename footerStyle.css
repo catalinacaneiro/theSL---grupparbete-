@@ -1,0 +1,15 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  font-size: 12px;
+  z-index: 1000; /* gör att den ligger ovanpå annat innehåll */
+}
