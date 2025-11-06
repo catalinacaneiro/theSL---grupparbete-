@@ -1,5 +1,5 @@
 export type Departure = {
-    desitantion: string;
+    destination: string;
     direction_code: number;
     direction: string; 
     state: string;
