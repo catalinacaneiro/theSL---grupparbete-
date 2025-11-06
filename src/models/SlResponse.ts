@@ -1,5 +1,5 @@
 import type { Departure } from "./Departure";
 
-export type SlReponse = {
+export type SlResponse = {
     departures: Departure[];
 }
