@@ -23,9 +23,6 @@ p.then((response: Response) => response.json()).then((data:SlResponse) => {
 
   });
 
-
-
-
 })
 
 //const response = await fetch("https://transport.integration.sl.se/v1/sites/1304/departures");
