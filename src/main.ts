@@ -23,8 +23,10 @@ p.then((response: Response) => response.json()).then((data:SlResponse) => {
 
   });
 
+  const footer: HTMLElement = document.createElement("footer"); 
 
-
+  footer.textContent = "SL FOR YOU"
+  app?.appendChild(footer);
 
 })
 
